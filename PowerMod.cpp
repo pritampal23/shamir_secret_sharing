@@ -1,8 +1,4 @@
-#include<iostream>
-#include<NTL/ZZ.h>
-
-using namespace std;
-using namespace NTL;
+#include "header.h"
 
 ZZ powermod(const ZZ& a, const ZZ& e, const ZZ& n){
     if(e == 0)

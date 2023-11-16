@@ -1,11 +1,5 @@
-#include<iostream>
-#include<stdint.h>
-#include<NTL/ZZ.h>
-#include<NTL/vector.h>
+#include "header.h"
 
-
-using namespace std;
-using namespace NTL;
 
 ZZ reconstruct(const uint64_t *party, Vec<ZZ>& c, uint64_t t, ZZ p){
     ZZ secret;
